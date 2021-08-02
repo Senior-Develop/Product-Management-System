@@ -1,0 +1,45 @@
+.book-btn{
+    color: #4fbabf;
+}
+
+.testimonial-section .testimonial-slider .slider-item .content {
+    max-width: 420px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.video-section{
+    padding: 250px 0;
+    background: url('https://templates.hibootstrap.com/jaunt/default/assets/img/video-bg.jpg') no-repeat center;
+    background-size: cover;
+}
+
+@media (min-width: 1401px) {
+    .destination-section .item-single .content {
+        left: 15px;
+    }
+}
+
+@media (min-width: 1367px) and (max-width: 1400px) {
+    .destination-section .item-single .content {
+        left: 10px;
+    }
+}
+
+@media (max-width: 1366px) {
+    .destination-section .item-single .content {
+        left: 11px;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 768px) {
+    .destination-section .item-single .content {
+        width: 64%;
+    }
+}
+
+@media (max-width: 499px) {
+    .destination-section .item-single .content {
+        width: 90%;
+    }
+}

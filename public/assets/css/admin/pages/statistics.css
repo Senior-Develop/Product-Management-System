@@ -1,0 +1,135 @@
+
+
+#client_tb{
+    display: block !important;
+    max-height: 50vh !important;
+    overflow-y: scroll;
+}
+
+
+.td-preview{
+    text-align: center;
+    font-size:2.5rem;
+}
+
+.user_photo_container img{
+    width: 2rem !important;
+    height: 2rem;
+    border-radius: 1rem;
+    margin:4px;
+}
+
+.user_photo_container p{
+    margin-top: unset;
+    margin-bottom: unset;
+    margin-left: 4px;
+}
+
+.slide_footer_container{
+    margin-left: unset !important;
+    margin-right: unset !important;
+}
+
+.slide_footer_container p {
+    margin-left: 0px;
+    padding-left: 0px;
+    color:black;
+    font-weight: 500;
+}
+
+#slider-label{
+  flex: 1.2;  
+  color: #595D6E;
+  font-size: 16px;  
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.kt-badge--warning{color: #fff !important;}
+
+.fc-button-group{
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.fc-button-active{
+    background: #5578EB !important;
+    color: #ffffff;
+    border: 1px solid #5578EB !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.fc-button-group > .fc-button.fc-button-active {
+    background: #5578EB !important;
+    color: #ffffff;
+    border: 1px solid #5578EB !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.fc-button-primary:not(:disabled):active, .fc-button-primary:not(:disabled).fc-button-active {
+    color: #fff;
+    background-color: #5578EB;
+    border-color: #5578EB;
+}
+
+.fc-button{
+    color: #74788d;
+    background: transparent;
+    border: 1px solid #ebedf2;
+    text-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    margin: 2px;
+}
+
+.fc-button-group > .fc-button:not(:first-child) {
+    margin-left: -1px !important;
+}
+
+.fc-button:hover {
+    border: 0;
+    background: #f7f8fa;
+    border: 1px solid #ebedf2;
+    color: #74788d;
+}
+
+.customer-height {
+    overflow: auto;    
+}
+
+@media (min-width: 1601px){
+    .customer-height {
+        max-height: 900px;
+    }
+}
+
+@media (min-width: 1920px){
+    .customer-height {
+        max-height: 765px !important;
+    }
+}
+
+@media (min-width: 1921px){
+    .customer-height {
+        max-height: 687px;
+    }
+}
+
+@media (max-width: 1366px){
+    .customer-height {
+        max-height: 870px;
+    }
+}
+
+@media (min-width: 1025px){
+    .customer-height {
+        max-height: 837px;
+    }
+}

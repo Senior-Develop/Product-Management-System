@@ -1,0 +1,177 @@
+.kt-portlet__head{
+    align-items: center !important;
+}
+
+.help-icon-container{
+    display: contents !important;
+}
+
+.time-range-input{
+    font-size: 0.8rem !important;
+}
+
+.book-tb-header-label{
+    display: flex;
+    align-items: center;
+    margin-bottom: 0rem ;
+    margin-right: 1rem;
+}
+
+.top-header-input{
+    width: 6rem;
+}
+
+.line-between-input{
+    width: 11px;
+    height: 0px;
+    border: 1px solid #595D6E;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+#input_between{
+    align-items: center;
+}
+
+.top-header-input-name{
+    width: 8rem;
+}
+
+.fc-button{
+    color: #74788d;
+    background: transparent;
+    border: 1px solid #ebedf2;
+    text-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline: none !important;
+    height: 2.75rem;
+    padding: 0 1.25rem;
+    font-size: 1rem;
+}
+
+.fc-button.fc-button-active{
+    background: #5578EB;
+    color: #ffffff;
+    border: 1px solid #5578EB;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+
+.kt-portlet .kt-portlet__head{
+    min-height: 90px !important;
+}
+
+.kt-badge.kt-badge--warning{
+    color: white !important;
+}
+
+.td-preview {
+    text-align: center;
+    font-size: 1.5rem;
+}
+
+.td-preview span i {
+    font-size: 2rem !important;
+}
+
+.action-icon i{
+    font-size: 2rem !important;
+}
+
+#remove_form_group{
+    display: contents !important;
+    text-align: center !important;
+}
+
+#remove_form_group label{
+    width: 100% !important;
+}
+
+
+.booking-header-item{
+    margin: 2px 5px;
+}
+.booking-header-mobile{
+    padding: 0 15px;
+}
+
+.book-btn-today{
+    margin: 0 5px !important    ;
+
+}
+.booking-header{
+    margin-top: 13px;
+    border: 0px !important;
+}
+
+.booking-body{
+    padding-top: 0px !important;
+}
+
+@media (max-width: 1024px){
+.book-calendar-btn-group{
+    display: unset;
+
+}
+}
+
+
+.fc-button-group{
+    position: relative;
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    vertical-align: middle;
+}
+
+.fc-button-active{
+    background: #5578EB !important;
+    color: #ffffff;
+    border: 1px solid #5578EB !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.fc-button-group > .fc-button.fc-button-active {
+    background: #5578EB !important;
+    color: #ffffff;
+    border: 1px solid #5578EB !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    text-shadow: none;
+}
+
+.fc-button-primary:not(:disabled):active, .fc-button-primary:not(:disabled).fc-button-active {
+    color: #fff;
+    background-color: #5578EB;
+    border-color: #5578EB;
+}
+
+.fc-button{
+    color: #74788d;
+    background: transparent;
+    border: 1px solid #ebedf2;
+    text-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+
+}
+
+.fc-button-group > .fc-button:not(:first-child) {
+  
+}
+
+.fc-button:hover {
+    border: 0;
+    background: #f7f8fa;
+    border: 1px solid #ebedf2;
+    color: #74788d;
+}
+
+.top-header-input-calendar {
+    width: 14rem;
+}

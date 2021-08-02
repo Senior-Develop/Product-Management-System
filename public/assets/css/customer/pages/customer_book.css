@@ -1,0 +1,27 @@
+.book-label{
+    font-weight: 600;
+}
+
+.city-price{
+    color: #4fbabf;
+}
+.city-category-title{
+    font-size: large;
+}
+
+.add_booking_line {
+    border-top: 2px solid red;
+}
+
+.booking-detail {
+    margin-left: 0px !important;
+}
+
+.booking-detail-img {
+    width: 100% !important;
+}
+
+.collapse-input {
+    border: 1px solid #dedede;
+    border-radius: 5px;
+}

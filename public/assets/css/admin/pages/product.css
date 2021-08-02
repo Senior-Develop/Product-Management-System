@@ -1,0 +1,57 @@
+.modal-height {
+    height: 400px;
+    overflow: auto;
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.left-spacing {
+    padding-left: 30px;
+}
+
+.cross-align-customer, .cross-align-location {
+    text-align: left;
+    align-self: center;
+}
+
+.cross-align-customer:hover, .cross-align-location:hover {
+    cursor: pointer;
+}
+
+.sn_module {
+    position:relative; 
+    background-color:white; 
+    width:120px; 
+    height:18px;
+}
+
+.sn_module select {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    font-size: 14px;
+    border: solid 1px lightgray;
+    width: 93%;
+    padding: 10px;
+    margin-left: 10px;
+    border-radius: 4px;
+}
+
+.sn_module input {
+    position: absolute;
+    top: 10px;
+    left: 25px;
+    width: 80%;
+    color:  #495057;
+    font-size: 12px;
+    border: none;
+    font-size: 14px;
+}
+
+.sn_module select:focus, .sn_module input:focus {outline:none;}
